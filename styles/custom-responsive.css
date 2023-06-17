@@ -1,0 +1,119 @@
+@media (max-width: 575px) {
+    
+    /*scroll bar*/
+    /* width */
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(250, 250, 250);
+        border-radius: 10px;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: rgb(243, 242, 242);
+        border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(192, 190, 190);
+    }
+    /*scroll bar end*/
+    .gender-box {
+        width: 70px;
+        height: 42px;
+        font-size: 26px;
+    }
+    .subcategory {
+       min-height: 408px;
+       max-height: 408px;
+    }
+    .sliderView .thumb {
+        padding: 0!important;
+        border-radius: 2px;
+        border-width: 1px !important;
+    }
+    .sliderView .thumb img {
+        border-radius: 1px;
+    }
+    .wardrobe a.btn {
+        margin-bottom: 1.4rem !important;
+    }    
+    #loginPopup .modal-dialog {
+        max-width: 90% !important;
+    }
+    .sliderView .thumb:hover .overlay, .wardrobe .hoverBlock .overlay {
+        display: none!important;
+    }
+    .preferrnece .sliderView.Occasion .thumb, .complement .sliderView .thumb, .mostSearch .collection {
+        width: 87%!important;
+    }
+    .mostSearch .collection .overlay {
+        border-radius: 28px;
+    }
+    .whyBlock h3 {
+        font-size: 19px;
+    }
+    .whyBlock {
+        padding: 20px;
+    }
+    .whyBlock img {
+        max-width: 161px;
+    }
+    .footer-area{
+        text-align: center;
+    }
+    .detail-slider .product-imgs .img-select {
+        text-align: center;
+    }
+    .img-showcase {
+        width: 71%;
+    }
+    .detail-slider .img-item {
+        width: 60px;
+        height: 80px;
+        border-radius: 10px;
+        border-width: 2px;
+        margin: 7px;
+    }
+    .product-detail-page .nav-tabs li:first-child .nav-link:before, .product-detail-page .nav-tabs li:last-child .nav-link:after {
+        width: 0;
+    }
+    .product-detail-page .main .slick-slide {
+        margin: 0 4px;
+    }
+    .btnview-similar {
+        right: 28px!important;
+    }
+    .sharebtn {
+        left: 30px!important;
+    }
+    .navbar-brand {
+        width: 88px;
+    }
+    .product-block {
+        padding: 7px;
+        margin-bottom: 18px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    body.home .btn {
+        font-size: 13px;
+    }
+    .searchbar-popup .input-group {
+        margin-bottom: 2px;
+    }
+    p.forcat {
+        width: 50px;
+        position: absolute;
+        margin-top: -28px;
+    }
+    footer.footer {
+        text-align: justify;
+    }
+}

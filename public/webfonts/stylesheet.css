@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bohemian Soul';
+    src: url('BohemianSoul-Regular.eot');
+    src: url('BohemianSoul-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BohemianSoul-Regular.woff2') format('woff2'),
+        url('BohemianSoul-Regular.woff') format('woff'),
+        url('BohemianSoul-Regular.ttf') format('truetype'),
+        url('BohemianSoul-Regular.svg#BohemianSoul-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
